@@ -1,0 +1,45 @@
+.card {
+  border: 0px !important;
+}
+
+.form-check-input {
+  margin-top: 12px;
+}
+
+.form-check-input:checked {
+  background-color: black !important;
+  border-color: black !important;
+}
+
+.form-check-input:focus {
+  box-shadow: 0 0 0 0 rgba(63, 62, 62, 0) !important;
+}
+
+.task-item {
+  border-width: 1px;
+  border-color: rgba(128, 128, 128, 0.342);
+  border-style: solid;
+  justify-content: space-around;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px 0.1rem rgba(128, 128, 128, 0.548);
+}
+
+.taskItemCheck {
+  float: right;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.836);
+  display: inline-flex;
+  border-radius: 3px;
+}
+
+.checkBox {
+  margin: 12px !important;
+  border-color: rgba(0, 0, 0, 0.842) !important;
+  border-width: 1.8px !important;
+  border-radius: 0px !important;
+}
+
+.date-icon {
+  filter: sepia(100%);
+  -webkit-filter: sepia(100%);
+}
